@@ -1,0 +1,64 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:  'Roboto', sans-serif;
+}
+.header{
+
+    background-image: url(https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    height: 100vh;
+}
+.name-rest{
+    text-align: center;
+    color: aliceblue;
+    padding-top: 3rem;
+    font-size: 3rem;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+img{
+    width: 500px;
+    margin: 20px;
+    border-radius: 15px;
+}
+.about{
+    margin: 30px;
+}
+.about-content{
+    display: flex;
+    justify-content: space-around;
+}
+.about-us-text{
+    margin: 20px;
+}
+.about-header{
+    text-align: center;
+}
+.contact-us-content{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+}
+.footer{
+    background-color: aliceblue;
+    height: 100px;
+}
